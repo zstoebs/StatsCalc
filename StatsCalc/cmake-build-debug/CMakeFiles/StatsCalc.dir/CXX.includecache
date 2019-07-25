@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Zachary/Desktop/Code Projects/CLion/StatsCalc/StatsFunctions.cpp
+iostream
+-
+cstddef
+-
+string
+-
+vector
+-
+fstream
+-
+
+/Users/Zachary/Desktop/Code Projects/CLion/StatsCalc/StatsFunctions.h
+stdio.h
+-
+cstddef
+-
+vector
+-
+StatsFunctions.cpp
+/Users/Zachary/Desktop/Code Projects/CLion/StatsCalc/StatsFunctions.cpp
+
+/Users/Zachary/Desktop/Code Projects/CLion/StatsCalc/main.cpp
+iostream
+-
+StatsFunctions.h
+/Users/Zachary/Desktop/Code Projects/CLion/StatsCalc/StatsFunctions.h
+
